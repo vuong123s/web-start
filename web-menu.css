@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #fff;
+
+}
+
+.menu{
+	display: flex;
+	height: 45px;
+	background-color: #111;
+}
+
+.menu{
+	color: #fff;
+}
+
+.menu-style li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu-style{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+.menu .menu-style li{
+	padding: 0px 30px;
+}
+
+.menu .menu-style .menu1{
+	position: relative;
+}
+
+.has-menu{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top:100%;
+}
+
+.menu li:hover{
+	background: #888;
+}
+
+.has-menu{
+	border:auto;
+}
+
+.has-menu li a{
+	text-decoration: none;
+	color: #111;
+}
+
+.menu-season li a{
+	text-decoration: none;
+	color: #111;
+}
+
+.menu-year li a{
+	text-decoration: none;
+	color: #111;
+}
+
+.menu .menu-style .menu1:hover .has-menu{
+	background: #fff;
+	opacity: 1;
+}
+
+.menu-year{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	opacity: 0;
+	top:100%;
+}
+
+.menu .menu-style .menu2{
+	position: relative;
+}
+
+.menu .menu-style .menu2:hover .menu-year{
+	background: #FFF;
+	opacity: 1;
+}
+
+.menu-season{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top:100%;
+}
+
+.menu .menu-style .menu3{
+	position: relative;
+}
+
+.menu .menu-style .menu3:hover .menu-season{
+	background: #FFF;
+	opacity: 1;
+}
+
+.search-content{
+	padding: 4px 50px;
+	position: absolute;
+	right: 0
+}
+
+input[type="text"] {
+      width: 130px;
+      box-sizing: border;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 8px 14px;
+      transition: 0.6s ease-in-out;
+    }
+
+input[type="text"]:focus{
+    width:500px; 
+}
