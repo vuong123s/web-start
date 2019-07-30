@@ -1,0 +1,61 @@
+body{
+	font-family: all !important;
+}
+
+.top-anime{
+	margin-top: 30px;
+}
+.anime-top{
+	width: 220px;
+	height: 120px;
+	display: inline-block;
+	margin: 15px;
+}
+
+.b{
+	background-image:url("image/anh anime/a.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b1{
+	background-image:url("image/anh anime/1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b2{
+	background-image:url("image/anh anime/3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b3{
+	background-image:url("image/anh anime/5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b4{
+	background-image:url("image/anh anime/9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b5{
+	background-image:url("image/anh anime/12.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b6{
+	background-image:url("image/anh anime/13.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.b7{
+	background-image:url("image/anh anime/7.jpg");
+	background-size: cover;
+	background-position: center;
+}

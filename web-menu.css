@@ -7,123 +7,67 @@ body{
 	background-color: #fff;
 
 }
+ ul, li, a{!
+ 	font-family: all !important;
+}
+
+img{
+	height: 400px;
+}
 
 .menu{
 	display: flex;
-	height: 45px;
+	height: 50px;
 	background-color: #111;
-}
-
-.menu{
-	color: #fff;
-}
-
-.menu-style li a{
-	color: #fff;
-	text-decoration: none;
-}
-
-.menu-style{
-	display: flex;
-	list-style-type: none;
 	align-items: center;
 }
 
-.menu .menu-style li{
-	padding: 0px 30px;
+.logo img{
+	height: 50px;
 }
 
-.menu .menu-style .menu1{
+.menu-style{
 	position: relative;
 }
 
-.has-menu{
-	list-style-type: none;
-	padding: 0;
-	position: absolute;
-	opacity: 0;
-	left: 0;
-	top:100%;
+.menu{
+	color: #fff;
 }
 
-.menu li:hover{
-	background: #888;
+.kind{
+	background-color: #111 !important;
+	border: none !important;
 }
 
-.has-menu{
-	border:auto;
+.kind a{
+	color: #FFF;
+	text-decoration: none !important;
 }
 
-.has-menu li a{
-	text-decoration: none;
-	color: #111;
-}
-
-.menu-season li a{
-	text-decoration: none;
-	color: #111;
-}
-
-.menu-year li a{
-	text-decoration: none;
-	color: #111;
-}
-
-.menu .menu-style .menu1:hover .has-menu{
-	background: #fff;
-	opacity: 1;
-}
-
-.menu-year{
-	list-style-type: none;
-	padding: 0;
-	position: absolute;
-	opacity: 0;
-	top:100%;
-}
-
-.menu .menu-style .menu2{
-	position: relative;
-}
-
-.menu .menu-style .menu2:hover .menu-year{
-	background: #FFF;
-	opacity: 1;
-}
-
-.menu-season{
-	list-style-type: none;
-	padding: 0;
-	position: absolute;
-	opacity: 0;
-	left: 0;
-	top:100%;
-}
-
-.menu .menu-style .menu3{
-	position: relative;
-}
-
-.menu .menu-style .menu3:hover .menu-season{
-	background: #FFF;
-	opacity: 1;
+.kind a:hover{
+	color: #fff !important;
 }
 
 .search-content{
 	padding: 4px 50px;
 	position: absolute;
+	top:0;
 	right: 0
 }
 
 input[type="text"] {
-      width: 130px;
+      width: 130px ;
       box-sizing: border;
       border: 1px solid black;
       border-radius: 4px;
       padding: 8px 14px;
-      transition: 0.6s ease-in-out;
+      transition: 0.5s ease-in-out;
     }
 
 input[type="text"]:focus{
     width:500px; 
+}
+
+.kind:visited{
+	border: none !important;
 }

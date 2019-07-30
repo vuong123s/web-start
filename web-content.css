@@ -1,5 +1,112 @@
-*{
-	padding: 0;
-	margin: 0;
+.content{
+	padding-top: 20px;
+	height: 2000px;
+	width: 1100px;
+	margin: auto;
+}
+
+.web-content{
+	padding-top: 50px;
+	font-family: add !important;
+}
+
+.anime{
+	height: 180px;
+	width: 300px;
+	display: inline-block;
+	margin: 25px;
+}
+
+.anime h5 a{
+	color: #333;
+}
+
+.anime h5 a:hover{
+	text-decoration: none;
+}
+
+.a{
+	background-image:url("image/anh anime/1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a0{
+	background-image:url("image/anh anime/2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a1{
+	background-image:url("image/anh anime/11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a2{
+	background-image:url("image/anh anime/0.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a3{
+	background-image:url("image/anh anime/4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a4{
+	background-image:url("image/anh anime/5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a5{
+	background-image:url("image/anh anime/a.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a6{
+	background-image:url("image/anh anime/6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a7{
+	background-image:url("image/anh anime/7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a8{
+	background-image:url("image/anh anime/8.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a9{
+	background-image:url("image/anh anime/9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.a10{
+	background-image:url("image/anh anime/0.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.overlay:hover{
+	opacity: 1;
 }
 
